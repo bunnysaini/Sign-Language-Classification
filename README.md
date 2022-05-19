@@ -7,14 +7,17 @@ Sign Language is an integral part of the lives of the deaf, mute, and hard of he
 ## Dataset
 We are using static images for our model to detect signs from the Indian Sign Language. We have used our own dataset that we have made by clicking pictures of the various signs in different lighting, backgrounds, and positions. It contains over 10,400 images containing 400 images for each letter of the English alphabet in Indian Sign Language.
 ![test_images](https://user-images.githubusercontent.com/83510385/169309912-01465560-064e-4901-81ca-ed537ee0bdee.png)
+
 Out of the 10K images captured, ~8330 images are used for training and the rest for testing. This forms a roughly 4:1 split. which is sufficient for this medium-scale dataset. To get higher variation for our model to learn, we have captured the photos in different backgrounds, shadows and angles.
 
 ## Libraries/Software Used
--Jupyter Notebook
--  Python
+- Jupyter Notebook
+- Python
 - Keras
 - Tensorflow
 - Matplotlib
 
 ## Model Results
 ![acc_resnet](https://user-images.githubusercontent.com/83510385/169311479-162fa9b6-d0f8-43cf-b68a-7f8fb3968ca9.png)
+<img width="793" alt="image" src="https://user-images.githubusercontent.com/83510385/169311737-3ea3ffe2-6abc-4475-8ec6-559741d5525d.png">
+
